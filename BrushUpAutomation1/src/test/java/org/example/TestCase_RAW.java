@@ -27,8 +27,8 @@ public class TestCase_RAW {
 
         driver.findElement(By.id("loginHeader")).click();
         driver.switchTo().frame("loginRegisterIframe");
-        driver.findElement(By.name("username")).sendKeys("085714826311");
-        driver.findElement(By.name("password")).sendKeys("Jessen123");
+        driver.findElement(By.name("username")).sendKeys("your username");
+        driver.findElement(By.name("password")).sendKeys("your password");
         driver.findElement(By.name("submitLogin")).click();
         driver.switchTo().defaultContent();
         //endregion
