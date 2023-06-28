@@ -19,7 +19,7 @@ public class TestCase_RAW {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        driver.get("https://klik-beta-uat.klikindomaret.net");
+        driver.get("https://xxxxxx.com");
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("ematic_background_overlay"))));
