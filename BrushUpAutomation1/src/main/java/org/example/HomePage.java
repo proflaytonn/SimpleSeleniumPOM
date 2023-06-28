@@ -37,7 +37,7 @@ public class HomePage extends ParentClass{
 
     public void gotoTheWebsite()
     {
-        driver.get("https://klik-beta-uat.klikindomaret.net");
+        driver.get("https://xxxxxxxxx.com");
     }
 
     public void clickEmantic()
